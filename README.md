@@ -44,7 +44,7 @@ $ npm install
 $ npm run start
 ```
 
-## 4. ERD
+## 3. ERD
 
 ![ERD](./ERD.png)
 
