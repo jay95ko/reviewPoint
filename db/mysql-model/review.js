@@ -66,11 +66,6 @@ module.exports = (sequelize, DataTypes, Model) => {
       targetKey: 'id',
     });
 
-    Review.hasMany(models.photo, {
-      foreignKey: 'reviewId',
-      sourceKey: 'id',
-    });
-
     Review.hasMany(models.pointLog, {
       foreignKey: 'reviewId',
       sourceKey: 'id',
